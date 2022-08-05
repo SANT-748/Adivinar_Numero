@@ -60,3 +60,6 @@ while True:
         print("Muchas gracias por jugar")
         sleep(1.2)
         break
+
+
+## Estos son cambios que voy a realizar
