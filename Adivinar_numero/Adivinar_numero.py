@@ -28,7 +28,7 @@ while True:
 
     clear(type)
     dificultad=input("Seleccione la dificultad(1,2,3,4,5):\nFacil(1):1 al 10\nMedio(2):1 al 50\nDificil(3):1 al 100\nExtremo(4):1 al 1000\nImposible(5):1 al 10000\n")
-    while dificultad != "1" and dificultad != "2" and dificultad != "3" and dificultad != "4" and dificultad != "5":
+    while dificultad not in ["1", "2", "3", "4", "5"]:
         clear(type)
         dificultad=input("Error, por favor selecciona una dificultad del 1 al 5\nFacil(1):1 al 10\nMedio(2):1 al 50\nDificil(3):1 al 100\nExtremo(4):1 al 1000\nImposible(5):1 al 10000\n")
 
@@ -60,6 +60,3 @@ while True:
         print("Muchas gracias por jugar")
         sleep(1.2)
         break
-
-
-## Estos son cambios que voy a realizar
